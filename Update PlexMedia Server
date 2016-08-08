@@ -1,0 +1,15 @@
+#when there is an update find out rpm
+## example plexmediaserver-1.0.0.2261-a17e99e.x86_64.rpm
+
+#after login first run full update
+sudo yum update
+
+cd Downloads/
+
+wget http://downloads.plexapp.com/plex-media-server/<short version name>/<full version name>
+# example: wget http://downloads.plexapp.com/plex-media-server/1.0.0.2261-a17e99e/plexmediaserver-1.0.0.2261-a17e99e.x86_64.rpm
+
+sudo service plexmediaserver stop  
+sudo yum localupdate <full version name>
+#example: sudo yum localupdate plexmediaserver-1.0.0.2261-a17e99e.x86_64.rpm 
+sudo service plexmediaserver start
