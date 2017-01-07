@@ -17,3 +17,6 @@ sudo service plexmediaserver stop
 sudo yum localupdate <file name>
 #example: sudo yum localupdate plexmediaserver-1.0.0.2261-a17e99e.x86_64.rpm 
 sudo service plexmediaserver start
+
+#reboot server
+sudo reboot
