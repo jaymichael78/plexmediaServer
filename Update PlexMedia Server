@@ -10,8 +10,7 @@ cd Downloads/
 
 #get the update rpm
 wget http://downloads.plexapp.com/plex-media-server/<version name>/<file name>
-# example: wget http://downloads.plexapp.com/plex-media-server/1.0.0.2261-a17e99e/plexmediaserver-1.0.0.2261-a17e99e.x86_64.rpm
-
+# example: https://downloads.plex.tv/plex-media-server-new/1.15.0.659-9311f93fd/redhat/plexmediaserver-1.15.0.659-9311f93fd.x86_64.rpm
 #install it
 sudo service plexmediaserver stop  
 sudo yum localupdate <file name>
