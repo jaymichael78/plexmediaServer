@@ -18,7 +18,7 @@ sudo yum localupdate <file name>
 sudo service plexmediaserver start
 
 #remove the file
-find -name "plex*" -exec rm {} \;
+rm -f <tab complete>
 
 #reboot server
 sudo reboot
